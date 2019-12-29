@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using Discord.Commands;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
-using System.Runtime.Serialization.Json;
 using SpookyGhostBot.Modules;
 
 namespace SpookyGhostBot
@@ -38,7 +37,7 @@ namespace SpookyGhostBot
 
             await RegisterCommandsAsync();
 
-            await _client.LoginAsync(TokenType.Bot, "MzY1MjU0MzEyMjQ0MjgxMzQ0.DLbpWg.c0E7PcS6NU0h6TjQ2tVURTOBcUo");
+            await _client.LoginAsync(TokenType.Bot, "MzY1MjU0MzEyMjQ0MjgxMzQ0.Xgh2Xg.O8tdKJsbkdsOP2eJbISG_3uLCjY");
 
             await _client.StartAsync();
 
@@ -81,7 +80,7 @@ namespace SpookyGhostBot
         {
             _client.MessageReceived += HandleCommandAsync;
 
-            await _commands.AddModulesAsync(Assembly.GetEntryAssembly());
+            await _commands.AddModulesAsync(Assembly.GetEntryAssembly(), null);
         }
 
         private async Task HandleCommandAsync(SocketMessage arg)

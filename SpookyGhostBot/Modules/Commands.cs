@@ -22,7 +22,7 @@ namespace SpookyGhostBot.Modules
             
 
 
-            await ReplyAsync("", false, builder);
+            await ReplyAsync("", false, builder.Build());
         }
 
         [Command("Spooky")]
@@ -83,8 +83,8 @@ namespace SpookyGhostBot.Modules
         {
             if (num <= 100)
             {
-                var messagesToDelete = await Context.Channel.GetMessagesAsync(num + 1).Flatten();
-                await Context.Channel.DeleteMessagesAsync(messagesToDelete);
+                var messages = await Context.Channel.GetMessagesAsync(num + 1).FlattenAsync();
+                await (Context.Channel as SocketTextChannel).DeleteMessagesAsync(messages);
                 if (num == 1)
                 {
                     await Context.Channel.SendMessageAsync(Context.User.Username + " deleted 1 message.");
@@ -112,7 +112,7 @@ namespace SpookyGhostBot.Modules
 
 
 
-            await ReplyAsync("", false, builder);
+            await ReplyAsync("", false, builder.Build());
         }
 
     }

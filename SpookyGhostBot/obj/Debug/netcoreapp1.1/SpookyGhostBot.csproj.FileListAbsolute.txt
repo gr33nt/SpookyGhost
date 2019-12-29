@@ -69,3 +69,13 @@ C:\Users\gr33n\Documents\OneDrive Docs\Visual Studio 2017\Projects\SpookyGhostBo
 C:\Users\gr33n\Documents\OneDrive Docs\Visual Studio 2017\Projects\SpookyGhostBot\SpookyGhostBot\obj\Debug\netcoreapp1.1\SpookyGhostBot.dll
 C:\Users\gr33n\Documents\OneDrive Docs\Visual Studio 2017\Projects\SpookyGhostBot\SpookyGhostBot\obj\Debug\netcoreapp1.1\SpookyGhostBot.pdb
 C:\Users\gr33n\Documents\OneDrive Docs\Visual Studio 2017\Projects\SpookyGhostBot\SpookyGhostBot\obj\Debug\netcoreapp1.1\SpookyGhostBot.csprojAssemblyReference.cache
+C:\Users\gr33n\Documents\OneDrive Docs\Visual Studio 2017\Projects\SpookyGhostBot\SpookyGhost\SpookyGhostBot\bin\Debug\netcoreapp1.1\SpookyGhostBot.deps.json
+C:\Users\gr33n\Documents\OneDrive Docs\Visual Studio 2017\Projects\SpookyGhostBot\SpookyGhost\SpookyGhostBot\bin\Debug\netcoreapp1.1\SpookyGhostBot.runtimeconfig.json
+C:\Users\gr33n\Documents\OneDrive Docs\Visual Studio 2017\Projects\SpookyGhostBot\SpookyGhost\SpookyGhostBot\bin\Debug\netcoreapp1.1\SpookyGhostBot.runtimeconfig.dev.json
+C:\Users\gr33n\Documents\OneDrive Docs\Visual Studio 2017\Projects\SpookyGhostBot\SpookyGhost\SpookyGhostBot\bin\Debug\netcoreapp1.1\SpookyGhostBot.dll
+C:\Users\gr33n\Documents\OneDrive Docs\Visual Studio 2017\Projects\SpookyGhostBot\SpookyGhost\SpookyGhostBot\bin\Debug\netcoreapp1.1\SpookyGhostBot.pdb
+C:\Users\gr33n\Documents\OneDrive Docs\Visual Studio 2017\Projects\SpookyGhostBot\SpookyGhost\SpookyGhostBot\obj\Debug\netcoreapp1.1\SpookyGhostBot.csprojAssemblyReference.cache
+C:\Users\gr33n\Documents\OneDrive Docs\Visual Studio 2017\Projects\SpookyGhostBot\SpookyGhost\SpookyGhostBot\obj\Debug\netcoreapp1.1\SpookyGhostBot.AssemblyInfoInputs.cache
+C:\Users\gr33n\Documents\OneDrive Docs\Visual Studio 2017\Projects\SpookyGhostBot\SpookyGhost\SpookyGhostBot\obj\Debug\netcoreapp1.1\SpookyGhostBot.AssemblyInfo.cs
+C:\Users\gr33n\Documents\OneDrive Docs\Visual Studio 2017\Projects\SpookyGhostBot\SpookyGhost\SpookyGhostBot\obj\Debug\netcoreapp1.1\SpookyGhostBot.dll
+C:\Users\gr33n\Documents\OneDrive Docs\Visual Studio 2017\Projects\SpookyGhostBot\SpookyGhost\SpookyGhostBot\obj\Debug\netcoreapp1.1\SpookyGhostBot.pdb

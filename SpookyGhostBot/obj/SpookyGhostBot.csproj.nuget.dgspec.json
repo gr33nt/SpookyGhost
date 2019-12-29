@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gr33n\\Documents\\OneDrive Docs\\Visual Studio 2017\\Projects\\SpookyGhostBot\\SpookyGhostBot\\SpookyGhostBot.csproj": {}
+    "C:\\Users\\gr33n\\Documents\\OneDrive Docs\\Visual Studio 2017\\Projects\\SpookyGhostBot\\SpookyGhost\\SpookyGhostBot\\SpookyGhostBot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gr33n\\Documents\\OneDrive Docs\\Visual Studio 2017\\Projects\\SpookyGhostBot\\SpookyGhostBot\\SpookyGhostBot.csproj": {
+    "C:\\Users\\gr33n\\Documents\\OneDrive Docs\\Visual Studio 2017\\Projects\\SpookyGhostBot\\SpookyGhost\\SpookyGhostBot\\SpookyGhostBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gr33n\\Documents\\OneDrive Docs\\Visual Studio 2017\\Projects\\SpookyGhostBot\\SpookyGhostBot\\SpookyGhostBot.csproj",
+        "projectUniqueName": "C:\\Users\\gr33n\\Documents\\OneDrive Docs\\Visual Studio 2017\\Projects\\SpookyGhostBot\\SpookyGhost\\SpookyGhostBot\\SpookyGhostBot.csproj",
         "projectName": "SpookyGhostBot",
-        "projectPath": "C:\\Users\\gr33n\\Documents\\OneDrive Docs\\Visual Studio 2017\\Projects\\SpookyGhostBot\\SpookyGhostBot\\SpookyGhostBot.csproj",
+        "projectPath": "C:\\Users\\gr33n\\Documents\\OneDrive Docs\\Visual Studio 2017\\Projects\\SpookyGhostBot\\SpookyGhost\\SpookyGhostBot\\SpookyGhostBot.csproj",
         "packagesPath": "C:\\Users\\gr33n\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gr33n\\Documents\\OneDrive Docs\\Visual Studio 2017\\Projects\\SpookyGhostBot\\SpookyGhostBot\\obj\\",
+        "outputPath": "C:\\Users\\gr33n\\Documents\\OneDrive Docs\\Visual Studio 2017\\Projects\\SpookyGhostBot\\SpookyGhost\\SpookyGhostBot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gr33n\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,36 +41,31 @@
           "dependencies": {
             "Discord.Net": {
               "target": "Package",
-              "version": "[1.0.2, )"
+              "version": "[2.1.1, )"
             },
             "Discord.Net.Commands": {
               "target": "Package",
-              "version": "[1.0.2, )"
+              "version": "[2.1.1, )"
             },
             "Discord.Net.Core": {
               "target": "Package",
-              "version": "[1.0.2, )"
+              "version": "[2.1.1, )"
             },
             "Discord.Net.WebSocket": {
               "target": "Package",
-              "version": "[1.0.2, )"
+              "version": "[2.1.1, )"
             },
             "Microsoft.NETCore.App": {
               "target": "Package",
-              "version": "[1.1.13, )",
+              "version": "[1.1.2, )",
               "autoReferenced": true
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[11.0.1, )"
+              "version": "[12.0.3, )"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "linux-arm": {
-          "#import": []
         }
       }
     }
