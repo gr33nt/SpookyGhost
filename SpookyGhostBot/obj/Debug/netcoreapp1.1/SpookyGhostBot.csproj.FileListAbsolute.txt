@@ -79,3 +79,26 @@ C:\Users\gr33n\Documents\OneDrive Docs\Visual Studio 2017\Projects\SpookyGhostBo
 C:\Users\gr33n\Documents\OneDrive Docs\Visual Studio 2017\Projects\SpookyGhostBot\SpookyGhost\SpookyGhostBot\obj\Debug\netcoreapp1.1\SpookyGhostBot.AssemblyInfo.cs
 C:\Users\gr33n\Documents\OneDrive Docs\Visual Studio 2017\Projects\SpookyGhostBot\SpookyGhost\SpookyGhostBot\obj\Debug\netcoreapp1.1\SpookyGhostBot.dll
 C:\Users\gr33n\Documents\OneDrive Docs\Visual Studio 2017\Projects\SpookyGhostBot\SpookyGhost\SpookyGhostBot\obj\Debug\netcoreapp1.1\SpookyGhostBot.pdb
+C:\Code\DiscordBots\SpookyGhost\SpookyGhostBot\bin\Debug\netcoreapp1.1\SpookyGhostBot.deps.json
+C:\Code\DiscordBots\SpookyGhost\SpookyGhostBot\bin\Debug\netcoreapp1.1\SpookyGhostBot.runtimeconfig.json
+C:\Code\DiscordBots\SpookyGhost\SpookyGhostBot\bin\Debug\netcoreapp1.1\SpookyGhostBot.runtimeconfig.dev.json
+C:\Code\DiscordBots\SpookyGhost\SpookyGhostBot\bin\Debug\netcoreapp1.1\SpookyGhostBot.dll
+C:\Code\DiscordBots\SpookyGhost\SpookyGhostBot\bin\Debug\netcoreapp1.1\SpookyGhostBot.pdb
+C:\Code\DiscordBots\SpookyGhost\SpookyGhostBot\bin\Debug\netcoreapp1.1\System.Runtime.Serialization.dll
+C:\Code\DiscordBots\SpookyGhost\SpookyGhostBot\bin\Debug\netcoreapp1.1\System.Xml.dll
+C:\Code\DiscordBots\SpookyGhost\SpookyGhostBot\bin\Debug\netcoreapp1.1\System.Configuration.dll
+C:\Code\DiscordBots\SpookyGhost\SpookyGhostBot\bin\Debug\netcoreapp1.1\System.dll
+C:\Code\DiscordBots\SpookyGhost\SpookyGhostBot\bin\Debug\netcoreapp1.1\System.Data.SqlXml.dll
+C:\Code\DiscordBots\SpookyGhost\SpookyGhostBot\bin\Debug\netcoreapp1.1\System.Security.dll
+C:\Code\DiscordBots\SpookyGhost\SpookyGhostBot\bin\Debug\netcoreapp1.1\System.Runtime.Serialization.xml
+C:\Code\DiscordBots\SpookyGhost\SpookyGhostBot\bin\Debug\netcoreapp1.1\System.Xml.xml
+C:\Code\DiscordBots\SpookyGhost\SpookyGhostBot\bin\Debug\netcoreapp1.1\System.Configuration.xml
+C:\Code\DiscordBots\SpookyGhost\SpookyGhostBot\bin\Debug\netcoreapp1.1\System.xml
+C:\Code\DiscordBots\SpookyGhost\SpookyGhostBot\bin\Debug\netcoreapp1.1\System.Data.SqlXml.xml
+C:\Code\DiscordBots\SpookyGhost\SpookyGhostBot\bin\Debug\netcoreapp1.1\System.Security.xml
+C:\Code\DiscordBots\SpookyGhost\SpookyGhostBot\obj\Debug\netcoreapp1.1\SpookyGhostBot.csprojAssemblyReference.cache
+C:\Code\DiscordBots\SpookyGhost\SpookyGhostBot\obj\Debug\netcoreapp1.1\SpookyGhostBot.AssemblyInfoInputs.cache
+C:\Code\DiscordBots\SpookyGhost\SpookyGhostBot\obj\Debug\netcoreapp1.1\SpookyGhostBot.AssemblyInfo.cs
+C:\Code\DiscordBots\SpookyGhost\SpookyGhostBot\obj\Debug\netcoreapp1.1\SpookyGhostBot.csproj.CopyComplete
+C:\Code\DiscordBots\SpookyGhost\SpookyGhostBot\obj\Debug\netcoreapp1.1\SpookyGhostBot.dll
+C:\Code\DiscordBots\SpookyGhost\SpookyGhostBot\obj\Debug\netcoreapp1.1\SpookyGhostBot.pdb
