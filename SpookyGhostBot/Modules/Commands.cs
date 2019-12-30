@@ -40,22 +40,6 @@ namespace SpookyGhostBot.Modules
             await ReplyAsync(repeat);            
         }
 
-        [Command("Story")]
-        public async Task StoryTelling()
-        {
-            await ReplyAsync("Pick one: ``A`` or ``B``.");
-            while(Context.Message.ToString() != "A" && Context.Message.ToString() != "B")
-            {
-                if (Context.Message.ToString() == "A")
-                {
-                    await ReplyAsync("Choice A.");
-                }
-                else if (Context.Message.ToString() == "B")
-                {
-                    await ReplyAsync("Choice B.");
-                }
-            }
-        }
 
         [Command("Debug Balance")]
         public async Task Debug()
