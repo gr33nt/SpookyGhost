@@ -9,12 +9,7 @@ namespace SpookyGhostBot.Modules
 {
     public class Currency : ModuleBase<SocketCommandContext>
     {
-        private Hashtable bones;
-
-        public Currency()
-        {
-            bones = new Hashtable();
-        }
+        static private Hashtable bones = new Hashtable();
 
         [Command("AddUser")]
         public async Task AddUser()
@@ -34,7 +29,7 @@ namespace SpookyGhostBot.Modules
             }
             else
             {
-                await ReplyAsync("Debug: User exists.");
+                await ReplyAsync($"Balance: {bones[Context.User.Id]}.");
             }
         }
 

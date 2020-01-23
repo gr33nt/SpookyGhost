@@ -19,7 +19,6 @@ namespace SpookyGhostBot
     private readonly IConfiguration _config;
 
     private IServiceProvider _services;
-    //public Currency currency = new Currency();
 
     public Program()
     {
@@ -46,6 +45,12 @@ namespace SpookyGhostBot
       await _client.LoginAsync(TokenType.Bot, _config["Token"]);
 
       await _client.StartAsync();
+
+      _client.Ready += () =>
+      {
+        Console.WriteLine("Bot is connected!");
+        return Task.CompletedTask;
+      };
 
       await Task.Delay(-1);
     }
@@ -91,16 +96,17 @@ namespace SpookyGhostBot
 
       int argPos = 0;
 
-      if (message.HasStringPrefix("##", ref argPos) || message.HasMentionPrefix(_client.CurrentUser, ref argPos))
+      if (message.HasStringPrefix(_config["Prefix"], ref argPos) || message.HasMentionPrefix(_client.CurrentUser, ref argPos))
       {
         var context = new SocketCommandContext(_client, message);
 
+        //IDisposable typing = context.Channel.EnterTypingState();
         var result = await _commands.ExecuteAsync(context, argPos, _services);
+        //typing.Dispose();
 
         if (!result.IsSuccess)
         {
           Console.WriteLine(result.ErrorReason);
-          await message.Channel.SendMessageAsync(result.ErrorReason);
         }
       }
     }
