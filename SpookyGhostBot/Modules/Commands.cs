@@ -54,6 +54,25 @@ namespace SpookyGhostBot.Modules
       }
     }
 
+    [Command("Poll")]
+    public async Task Poll([Remainder] string comment)
+    {
+      //  delete the user message
+      await Context.Message.DeleteAsync();
+
+      EmbedBuilder embed = new EmbedBuilder();
+      embed.WithTitle("Please vote for the poll below.")
+        .WithColor(new Color(0xfdfd96))
+        .WithCurrentTimestamp()
+        .WithAuthor(Context.User)
+        .WithDescription($"**{comment}**");
+
+      var response = await ReplyAsync("", false, embed.Build());
+      await response.AddReactionAsync(new Emoji("\uD83D\uDC4D"));
+      await response.AddReactionAsync(new Emoji("\uD83D\uDC4E"));
+      await response.AddReactionAsync(new Emoji("\uD83D\uDC49"));
+    }
+
 #if false
     [Command("Help")]
     public async Task HelpMe()

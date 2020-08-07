@@ -27,7 +27,7 @@ namespace SpookyGhostBot.Modules
       EmbedBuilder output = new EmbedBuilder();
       if (path == "")
       {
-        output.Title = "my bot - help";
+        output.Title = "spooky ghost - help";
 
         foreach (var mod in _commands.Modules.Where(m => m.Parent == null))
         {

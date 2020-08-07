@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\DiscordBots\\SpookyGhost\\SpookyGhostBot\\SpookyGhostBot.csproj": {}
+    "D:\\Sandbox\\DiscordBots\\SpookyGhost\\SpookyGhost\\SpookyGhostBot\\SpookyGhostBot.csproj": {}
   },
   "projects": {
-    "C:\\Code\\DiscordBots\\SpookyGhost\\SpookyGhostBot\\SpookyGhostBot.csproj": {
+    "D:\\Sandbox\\DiscordBots\\SpookyGhost\\SpookyGhost\\SpookyGhostBot\\SpookyGhostBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\DiscordBots\\SpookyGhost\\SpookyGhostBot\\SpookyGhostBot.csproj",
+        "projectUniqueName": "D:\\Sandbox\\DiscordBots\\SpookyGhost\\SpookyGhost\\SpookyGhostBot\\SpookyGhostBot.csproj",
         "projectName": "SpookyGhostBot",
-        "projectPath": "C:\\Code\\DiscordBots\\SpookyGhost\\SpookyGhostBot\\SpookyGhostBot.csproj",
-        "packagesPath": "C:\\Users\\gr33n\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\DiscordBots\\SpookyGhost\\SpookyGhostBot\\obj\\",
+        "projectPath": "D:\\Sandbox\\DiscordBots\\SpookyGhost\\SpookyGhost\\SpookyGhostBot\\SpookyGhostBot.csproj",
+        "packagesPath": "D:\\Users\\gr33n\\.nuget\\packages\\",
+        "outputPath": "D:\\Sandbox\\DiscordBots\\SpookyGhost\\SpookyGhost\\SpookyGhostBot\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\gr33n\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\gr33n\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,6 +65,14 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
+            },
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.112, )"
+            },
+            "sqlite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
             }
           },
           "imports": [
@@ -85,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

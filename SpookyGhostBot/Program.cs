@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Configuration.Json;
+using System.Data.SQLite;
 
 namespace SpookyGhostBot
 {
@@ -48,9 +49,12 @@ namespace SpookyGhostBot
 
       _client.Ready += () =>
       {
+
         Console.WriteLine("Bot is connected!");
+        //UpdateDB(_client);
         return Task.CompletedTask;
       };
+
 
       await Task.Delay(-1);
     }
@@ -107,6 +111,76 @@ namespace SpookyGhostBot
         if (!result.IsSuccess)
         {
           Console.WriteLine(result.ErrorReason);
+        }
+      }
+    }
+    
+    private void UpdateDB(DiscordSocketClient client)
+    {
+      
+      using (SQLiteConnection conn = new SQLiteConnection("data source=SpookyGhostBot.db"))
+      {
+        using (SQLiteCommand tableCommand = new SQLiteCommand())
+        {
+          string tableSql = "Create Table If Not Exists Guild (ID integer Primary Key AutoIncrement, GuildID text Not Null, Name text Not Null);";
+          tableCommand.CommandText = tableSql;
+          tableCommand.Connection = conn;
+          conn.Open();
+          tableCommand.ExecuteNonQuery();
+          conn.Close();
+        }
+        using (SQLiteCommand cmd = new SQLiteCommand())
+        {
+          foreach (var guild in client.Guilds)
+          {
+            string strSql = $"Insert Into Guild (GuildID, Name) Select '{guild.Id}', '{guild.Name}' Where Not Exists (Select ID From Guild Where GuildID = '{guild.Id}');";
+            cmd.CommandText = strSql;
+            cmd.Connection = conn;
+            conn.Open();
+            //            cmd.Connection = conn;
+            /*
+INSERT INTO EVENTTYPE (EventTypeName)
+SELECT 'ANI Received'
+WHERE NOT EXISTS (SELECT 1 FROM EVENTTYPE WHERE EventTypeName = 'ANI Received');
+            https://www.tutorialspoint.com/sqlite/sqlite_date_time.htm
+566685754000932872
+Create Table [Guild]
+(
+    [ID] integer Primary Key AutoIncrement,
+    [GuildID] text Not Null,
+    [Name] text Not Null
+);
+Insert Into Guild (GuildID, Name) Values ({guild.Id}, '{guild.Name}')
+Create Table [PersonAddress]
+(
+    [ID] int Not Null Identity(1, 1),
+    [PersonID] int Not Null,
+    [AddressTypeID] int Not Null,
+    Constraint [PK_PersonAddress] Primary Key Clustered
+    (
+        [ID] Asc
+    )
+);
+
+
+            */
+            try
+            {
+              cmd.ExecuteNonQuery();
+            }
+            catch (Exception exc)
+            {
+              Console.WriteLine(exc.Message);
+            }
+            finally
+            {
+              conn.Close();
+            }
+
+          }
+
+          // do something
+          
         }
       }
     }
